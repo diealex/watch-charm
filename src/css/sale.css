@@ -113,25 +113,12 @@
   border-radius: 8px;
   min-height: 32px;
 }
-.sale_list-images {
-  width: 52px;
-}
-.sale_main-image {
-  width: 235px;
-}
-
 @media (min-width: 768px) {
   .sale_box {
     flex-direction: row;
     flex-wrap: wrap;
     column-gap: 20px;
     row-gap: 40px;
-  }
-  .sale_list-images {
-    width: 96px;
-  }
-  .sale_main-image {
-    width: 328px;
   }
   .sale_list {
     display: inline-flex;
