@@ -1,113 +1,125 @@
-# Vanilla App Template
+# Happy Galley - E-commerce Website for Watches
 
-Цей проект було створено за допомогою Vite. Для знайомства та налаштування
-додаткових можливостей [звернись до документації](https://vitejs.dev/).
+Welcome to the official repository of **Happy Galley**, a collaborative project
+to build an e-commerce website specializing in selling premium watches. This
+project is developed by a dedicated team of web developers and designers, aiming
+to provide a seamless and elegant shopping experience for customers.
 
-## Створення репозиторію за шаблоном
+## Table of Contents
 
-Використовуй цей репозиторій організації GoIT як шаблон для створення
-репозиторію свого проекту. Для цього натисни на кнопку `«Use this template»` і
-обери опцію `«Create a new repository»`, як показано на зображенні.
+- [Project Overview](#project-overview)
+- [Technologies Used](#technologies-used)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-![Creating repo from a template step 1](./assets/template-step-1.png)
+## Project Overview
 
-На наступному етапі відкриється сторінка створення нового репозиторію. Заповни
-поле його імені, переконайся, що репозиторій публічний, після чого натисни
-кнопку `«Create repository from template»`.
+Happy Galley is an e-commerce platform where users can browse, search, and
+purchase a wide range of high-quality watches. The website is designed to be
+fully responsive, ensuring an optimal user experience across all devices.
 
-![Creating repo from a template step 2](./assets/template-step-2.png)
+### Key Objectives:
 
-Після того, як репозиторій буде створено, необхідно перейти в налаштування
-створеного репозиторію на вкладку `Settings` > `Actions` > `General` як показано
-на зображенні.
+- Provide a modern and intuitive UI/UX for easy navigation.
+- Ensure high performance and scalability.
+- Implement secure payment and user authentication systems.
+- Enable product filtering and sorting options for a personalized shopping
+  experience.
 
-![Settings GitHub Actions permissions step 1](./assets/gh-actions-perm-1.png)
+## Technologies Used
 
-Проскроливши сторінку до самого кінця, в секції `«Workflow permissions»` обери
-опцію `«Read and write permissions»` і постав галочку в чекбоксі. Це необхідно
-для автоматизації процесу деплою проекту.
+This project utilizes modern web technologies and frameworks:
 
-![Settings GitHub Actions permissions step 2](./assets/gh-actions-perm-2.png)
+- **Frontend**:
 
-Тепер у тебе є особистий репозиторій проекту, зі структурою файлів та папок
-репозиторію-шаблону. Далі працюй з ним, як з будь-яким іншим особистим
-репозиторієм, клонуй його собі на комп'ютер, пиши код, роби коміти та відправляй
-їх на GitHub.
+  - HTML5
+  - CSS3 (with Flexbox & Grid)
+  - JavaScript (ES6+)
+  - React.js (for dynamic components)
 
-## Підготовка до роботи
+- **Backend**:
 
-1. Переконайся, що на комп'ютері встановлено LTS-версію Node.js.
-   [Скачай та встанови](https://nodejs.org/en/) її якщо необхідно.
-2. Встанови базові залежності проекту в терміналі командою `npm install`.
-3. Запусти режим розробки, виконавши в терміналі команду `npm run dev`.
-4. Перейдіть у браузері за адресою
-   [http://localhost:5173](http://localhost:5173). Ця сторінка буде автоматично
-   перезавантажуватись після збереження змін у файли проекту.
+  - Node.js
+  - Express.js
+  - MongoDB (for database management)
 
-## Файли і папки
+- **Version Control**:
 
-- Файли розмітки компонентів сторінки повинні лежати в папці `src/partials` та
-  імпортуватись до файлу `index.html`. Наприклад, файл з розміткою хедера
-  `header.html` створюємо у папці `partials` та імпортуємо в `index.html`.
-- Файли стилів повинні лежати в папці `src/css` та імпортуватись до HTML-файлів
-  сторінок. Наприклад, для `index.html` файл стилів називається `index.css`.
-- Зображення додавай до папки `src/img`. Збирач оптимізує їх, але тільки при
-  деплої продакшн версії проекту. Все це відбувається у хмарі, щоб не
-  навантажувати твій комп'ютер, тому що на слабких компʼютерах це може зайняти
-  багато часу.
+  - Git & GitHub
 
-## Деплой
+- **Others**:
+  - SASS/SCSS for enhanced CSS
+  - RESTful APIs
+  - Axios for API requests
 
-Продакшн версія проекту буде автоматично збиратися та деплоїтись на GitHub
-Pages, у гілку `gh-pages`, щоразу, коли оновлюється гілка `main`. Наприклад,
-після прямого пуша або прийнятого пул-реквесту. Для цього необхідно у файлі
-`package.json` змінити значення прапора `--base=/<REPO>/`, для команди `build`,
-замінивши `<REPO>` на назву свого репозиторію, та відправити зміни на GitHub.
+## Features
 
-```json
-"build": "vite build --base=/<REPO>/",
-```
+- **Product Pages**: Detailed information about each watch, including images,
+  specifications, and pricing.
+- **Cart & Checkout**: Add watches to the cart, view the cart summary, and
+  proceed to checkout.
+- **User Authentication**: Sign up, log in, and manage user profiles.
+- **Responsive Design**: Optimized for mobile, tablet, and desktop views.
+- **Search & Filtering**: Search watches by brand, price, and type, with
+  advanced filtering options.
+- **Order History**: Users can view their past orders and track current orders.
 
-Далі необхідно зайти в налаштування GitHub-репозиторію (`Settings` > `Pages`) та
-виставити роздачу продакшн версії файлів з папки `/root` гілки `gh-pages`, якщо
-це не було зроблено автоматично.
+## Installation
 
-![GitHub Pages settings](./assets/repo-settings.png)
+To set up the project locally, follow these steps:
 
-### Статус деплою
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/MarvinNox/WatchCharm-team_project-happy_galley.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd WatchCharm-team_project-happy_galley
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Start the development server:
+   ```bash
+   npm run dev
+   ```
+5. Open your browser and navigate to `http://localhost:5173`
 
-Статус деплою крайнього коміту відображається іконкою біля його ідентифікатора.
+## Usage
 
-- **Жовтий колір** - виконується збірка та деплой проекту.
-- **Зелений колір** - деплой завершився успішно.
-- **Червоний колір** - під час лінтингу, збірки чи деплою сталася помилка.
+- **For Developers**: You can fork this repository, clone it to your local
+  machine, and make changes. Make sure to create a pull request when you want to
+  merge your changes.
+- **For Users**: Visit the live website (link to be provided once deployed) to
+  explore and purchase watches.
 
-Більш детальну інформацію про статус можна переглянути натиснувши на іконку, і в
-вікні, що випадає, перейти за посиланням `Details`.
+## Contributing
 
-![Deployment status](./assets/deploy-status.png)
+We welcome contributions from everyone! To contribute:
 
-### Жива сторінка
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-branch-name`).
+3. Commit your changes (`git commit -m 'Add new feature'`).
+4. Push to the branch (`git push origin feature-branch-name`).
+5. Create a pull request.
 
-Через якийсь час, зазвичай кілька хвилин, живу сторінку можна буде подивитися за
-адресою, вказаною на вкладці `Settings` > `Pages` в налаштуваннях репозиторію.
-Наприклад, ось посилання на живу версію для цього репозиторію
+### Contribution Guidelines:
 
-[https://goitacademy.github.io/vanilla-app-template/](https://goitacademy.github.io/vanilla-app-template/).
+- Ensure your code follows the project’s style guide.
+- Write clear, concise commit messages.
+- Provide a detailed description of the changes in your pull request.
 
-Якщо відкриється порожня сторінка, переконайся, що у вкладці `Console` немає
-помилок пов'язаних з неправильними шляхами до CSS та JS файлів проекту
-(**404**). Швидше за все у тебе неправильне значення прапора `--base` для
-команди `build` у файлі `package.json`.
+## License
 
-## Як це працює
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file
+for more details.
 
-![How it works](./assets/how-it-works.png)
+---
 
-1. Після кожного пуша у гілку `main` GitHub-репозиторію, запускається
-   спеціальний скрипт (GitHub Action) із файлу `.github/workflows/deploy.yml`.
-2. Усі файли репозиторію копіюються на сервер, де проект ініціалізується та
-   проходить лінтинг та збірку перед деплоєм.
-3. Якщо всі кроки пройшли успішно, зібрана продакшн версія файлів проекту
-   відправляється у гілку `gh-pages`. В іншому випадку, у лозі виконання скрипта
-   буде вказано в чому проблема.
+Happy coding!
+
+**Team Happy Galley**
