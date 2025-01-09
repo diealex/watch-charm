@@ -1,69 +1,76 @@
-<body>
-  <section class="section-wrapper contact">
-    <div class="contact-section">
-      <h2 class="contact-title">Contact Us</h2>
-      <div class="input-section">
-        <p class="contact-text">
-          Please use the form below to contact us. Enter your name, email,
-          phone, and message and we'll get back to you shortly.
-        </p>
-        <form class="form" name="form-contact" autocomplete="off">
-          <div class="input-box">
-            <div class="input">
-              <label class="name-label" for="user-name">Name</label>
-              <div class="input-div">
-                <input
-                  class="form-input"
-                  type="text"
-                  name="user-name"
-                  autofocus
-                  id="user-name"
-                />
-              </div>
-            </div>
-            <div class="input">
-              <label class="name-label" for="user-email">Email</label>
-              <div class="input-div">
-                <input
-                  class="form-input"
-                  type="text"
-                  name="user-name"
-                  id="user-email"
-                />
-              </div>
-            </div>
-            <div class="input">
-              <label class="name-label" for="user-phone">+380</label>
-              <div class="input-div">
-                <input
-                  class="form-input"
-                  type="text"
-                  name="user-name"
-                  id="user-phone"
-                />
-              </div>
-            </div>
-            <div class="area-div">
-              <label class="name-label" for="user-comment">Comment</label>
-              <textarea
-                id="user-comment"
-                placeholder="Text input"
-                class="text-area"
-                name="user-comment"
-              >
-              </textarea>
-            </div>
+<section class="section-wrapper contact">
+    <div class="container">
+      <h3 class="contact-title">Contact Us</h3>
+      <div class="contact-content">
+          <div class="content-section">
+            <p class="contact-text">
+        Please use the form below to contact us. Enter your name, email,<br>
+        phone, and message and we'll get back to you shortly.
+            </p>
+            <form class="form" name="form-contact" autocomplete="off">
+            <div class="inputs">
+                <div class="input">
+
+                      <input
+                        class="form-input"
+                        type="text"
+                        name="user-name"
+                        id="user-name"
+                        placeholder="Name"
+                        autofocus
+                        required
+                      />
+
+
+                      <input
+                        class="form-input"
+                        type="text"
+                        name="user-name"
+                        id="user-name"
+                        placeholder="Email"
+                        autofocus
+                        required
+                      />
+
+                      <input
+                        class="form-input"
+                        type="text"
+                        name="user-name"
+                        id="user-name"
+                        placeholder="+380"
+                        autofocus
+                        pattern="[0-9]{10}" 
+                        title="Phone number should be 10 digits"
+                        required
+                      />
+
+
+                    <div class="input-div">
+                      <textarea
+                        class="form-input area"
+                        type="text"
+                        name="user-name"
+                        id="user-name"
+                        placeholder="Comment"
+                        autofocus
+                        maxlength="500" 
+                        required
+                      ></textarea>
+                    </div>
+ </div>
+  </div>
+            <button type="button" class="button-text">Send
+
+            </form>
           </div>
-          <button type="button" class="button-contacts">Send</button>
-        </form>
-      </div>
+              <img
+              class="img-watch"
+          src="../img/contact-section/desktop.jpg"
+          alt="watch"
+          width="530"
+          height="556"
+          style="display: block"
+              />
     </div>
-    <img
-      src="../img/contact-section/desktop.jpg"
-      alt="watch"
-      width="530"
-      height="556"
-      style="display: block"
-    />
+    </div>
   </section>
-</body>
