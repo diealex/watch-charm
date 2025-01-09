@@ -1,0 +1,83 @@
+.flexy {
+  display: flex;
+  flex-direction: column;
+}
+.sale_title {
+  text-align: start;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  margin-bottom: 24px;
+}
+.sale_list {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 20px;
+}
+.sale_item {
+  border: 1px solid rgba(12, 12, 12, 0.05);
+  border-radius: 16px;
+  max-width: 80px;
+  max-height: 80px;
+  padding: 13px 14px;
+  background-color: var(--cards);
+}
+.sale_main-product-img_box {
+  border: 1px solid rgba(12, 12, 12, 0.05);
+  border-radius: 30px;
+  max-width: 335px;
+  max-height: 385px;
+  padding: 50px;
+  background-color: var(--cards);
+  margin-bottom: 20px;
+}
+.sale_descr-box {
+  border-radius: 30px;
+  max-height: 561px;
+  background-color: var(--accent);
+  padding: 48px 28px;
+}
+.sale_descr-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+  color: var(--background);
+  margin-bottom: 10px;
+}
+.sale_descr_prod-tag {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  color: rgba(251, 251, 251, 0.5);
+  margin-bottom: 20px;
+}
+.sale_current-price {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 600;
+  color: var(--background);
+  border-radius: 8px;
+  width: 68px;
+  height: 32px;
+  background: rgba(251, 251, 251, 0.1);
+  margin-right: 9px;
+  margin-bottom: 28px;
+}
+.sale_real-price {
+  display: inline-flex;
+  align-items: center;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  text-decoration: line-through;
+  color: rgba(251, 251, 251, 0.5);
+}
+.sale_prod-descr {
+  font-size: 14px;
+  line-height: 1.29;
+  color: rgba(251, 251, 251, 0.7);
+}
