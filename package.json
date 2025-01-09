@@ -1,11 +1,11 @@
 {
-  "name": "WatchCharm team_project by Happy_Galley",
+  "name": "project_team_happy-galley",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/WatchCharm-team_project-happy_galley/",
+    "build": "vite build --base=/project_team_happy-galley/",
     "preview": "vite preview"
   },
   "devDependencies": {
