@@ -1,0 +1,43 @@
+/* mobile-styles */
+.advert{
+    background: #0c0c0c;
+    background-image: 
+      url("../img/image70.png");
+    border-radius: 30px;   
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+.advert-text{
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+    margin-bottom: 28px;
+}
+.accent-words{
+    color: rgba(251, 251, 251, 0.5);
+}
+.advert-btn{
+    border: 1px solid rgba(251, 251, 251, 0.15);
+    border-radius: 16px;
+    width: 160px;
+    height: 48px;
+    background-color: transparent;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.28571;
+    text-align: center;
+    color: #fbfbfb;
+}
+
