@@ -1,9 +1,18 @@
+.section-wrapper.footer {
+    padding: 0;
+    background-color: #0c0c0c;
+    color: #fbfbfb;
+    border-radius: 30px;
+}
+
 .footer-wrapper {
     padding: 40px 28px 28px 28px;
     max-width: 335px;
-    border-radius: 30px;
-    background-color: #0c0c0c;
-    color: #fbfbfb;
+    min-width: 320px;
+}
+
+.logo-footer-wrapper {
+    margin-bottom: 92px;
 }
 
 .logo-footer {
@@ -38,7 +47,7 @@
     width: 18px;
     height: 18px;
     opacity: 0.8;
-    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-media-icon:hover{
@@ -58,6 +67,7 @@
 
 .number-link {
     font-size: 12px;
+    line-height: 1.3;
 }
 
 .footer-title {
@@ -101,7 +111,6 @@
     line-height: 1.4;
     letter-spacing: -0.02em;
     color: rgba(251, 251, 251, 0.5);
-    opacity: 0.9;
     margin-bottom: 8px;
 }
 
@@ -123,6 +132,7 @@
     margin-top: 0px;
     max-width: 279px;
     border: 1px solid rgba(251, 251, 251, 0.1);
+    margin-bottom: 24px;
 }
 
 /* tablet */
@@ -136,12 +146,18 @@
     .logo-footer-wrapper {
         display: flex;
         justify-content: space-between;
-        margin-bottom: 86px;
+        flex-wrap: wrap;
+        gap: 86px;
+        margin-bottom: 100px;
     }
 
     .logo-footer {
     font-size: 20px;
-}
+}   
+
+    .footer-link-list {
+        margin-bottom: 0;
+    }
 
     .footer-link-list > li {
     width: 36px;
@@ -158,12 +174,17 @@
     height: 20px;
 }
 
+    .number-link {
+    font-size: 14px;
+    line-height: 1.2;
+    margin-bottom: 0;
+}
+
     .footer-title {
     font-size: 28px;
     line-height: 1.1;
     font-weight: 600;
     max-width: 534px;
-    margin-bottom: 100px;
 }
 
     .menu-footer-list {
@@ -180,6 +201,7 @@
     .adress-text {
     max-width: 162px;
     font-size: 14px;
+    line-height: 1.3;
 
 }
 
@@ -193,18 +215,23 @@
     }
 
     .footer-text {
+    margin-bottom: 0;
     font-size: 14px;
+    line-height: 1.2;
 }
 
     .footer-services-link {
     font-size: 14px;
-}
+    line-height: 1.2;
 }
 
 .footer-vector {
     max-width: 624px;
     margin-bottom: 28px;
 }
+
+}
+
 
 /* desktop */
 
@@ -214,14 +241,10 @@
     }
 
     .logo-footer-wrapper {
-        margin-bottom: 0;
+        margin-bottom: 126px;
     }
-        .footer-title {
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 126px;
-    margin-top: -101px;
-}
+
+
 
     .menu-footer-list {
     flex-direction: row;
@@ -229,6 +252,10 @@
     gap: 40px;
 }
 
+
+    .number-link {
+    order: 3;
+}
 
     .adress-text {
     max-width: 166px;
