@@ -11,7 +11,6 @@
   font-weight: 600;
   font-size: 32px;
   line-height: 1;
-  letter-spacing: -0.02em;
   margin-bottom: 24px;
 }
 .sale_list {
@@ -29,6 +28,7 @@
   max-height: 80px;
   padding: 13px 14px;
   background-color: var(--cards);
+  transition: all 250ms ease-out;
 }
 .sale_main-product-img_box {
   display: flex;
@@ -47,12 +47,12 @@
   min-height: 561px;
   background-color: var(--accent);
   padding: 48px 28px;
+  transition: all 500ms ease-out;
 }
 .sale_descr-title {
   font-weight: 600;
   font-size: 24px;
   line-height: 1.17;
-  letter-spacing: -0.02em;
   color: var(--background);
   margin-bottom: 10px;
   max-width: 279px;
@@ -129,6 +129,7 @@
     min-width: 552px;
     max-height: 558px;
     margin-bottom: 0;
+    transition: all 500ms ease-out;
   }
   .sale_descr-title {
     font-weight: 600;
@@ -156,7 +157,7 @@
   }
   .sale_title {
     font-size: 48px;
-    line-height: 0.91667;
+    line-height: 0.92;
     margin-bottom: 40px;
   }
   .sale_descr-tags_list {
