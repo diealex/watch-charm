@@ -1,15 +1,13 @@
 <section class="section-wrapper">
   <div class="container">
-    <h3 class="contact-title">Contact Us</h3>
+    <h2 class="contact-title">Contact Us</h2>
     <div class="contact-content">
       <div class="content-section">
         <p class="contact-text">
-          Please use the form below to contact us. Enter your name, email,<br
-            class="break-line"
-          />
+          Please use the form below to contact us. Enter your name, email,
           phone, and message and we'll get back to you shortly.
         </p>
-        <form class="form" name="form-contact" autocomplete="off">
+        <form class="form" name="form-contact" autocomplete="on">
           <div class="inputs">
             <div class="input">
               <input
@@ -44,37 +42,55 @@
                 required
               />
 
-              <div class="input-div">
-                <textarea
-                  class="form-input area"
-                  name="user-comment"
-                  id="user-comment"
-                  placeholder="Comment"
-                  maxlength="500"
-                  required
-                ></textarea>
-              </div>
+              <textarea
+                class="form-input area"
+                name="user-comment"
+                id="user-comment"
+                placeholder="Comment"
+                maxlength="500"
+                required
+              ></textarea>
             </div>
           </div>
           <button type="submit" class="button-text">Send</button>
         </form>
       </div>
+
       <picture>
-        <source
-          media="(max-width: 768px)"
-          srcset="/img/contact-section/tablet.jpg"
-        />
+        <!-- Desktop -->
         <source
           media="(min-width: 1280px)"
-          srcset="/img/contact-section/desktop.jpg"
+          srcset="
+            /img/contact-section/desktop.jpg,
+            /img/contact-section/desktop@2x.jpg 2x
+          "
         />
+
+        <!-- Tablet -->
+        <source
+          media="(min-width: 768px) and (max-width: 1279px)"
+          srcset="
+            /img/contact-section/tablet.jpg,
+            /img/contact-section/tablet@2x.jpg 2x
+          "
+        />
+
+        <!-- Mobile -->
+        <source
+          media="(max-width: 767px)"
+          srcset="
+            /img/contact-section/mobile.jpg,
+            /img/contact-section/mobile@2x.jpg 2x
+          "
+        />
+
+        <!-- Fallback -->
         <img
           class="img-watch"
           src="/img/contact-section/mobile.jpg"
           alt="watch"
           width="530"
           height="556"
-          style="display: block"
         />
       </picture>
     </div>
