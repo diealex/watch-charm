@@ -24,7 +24,7 @@ dist-ssr
 *.sw?
 
 #Pull requests list
-pullRequestsList.txt
+
 
 #tasks
 tasks.txt
