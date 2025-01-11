@@ -42,6 +42,9 @@
   border-radius: 12px;
   background-color: transparent;
 }
+.form-input ::placeholder {
+  color: var(--main);
+}
 .form-input:hover,
 .form-input:focus {
   outline: none;
@@ -49,6 +52,7 @@
   box-shadow: 0 0 5px rgba(59, 130, 246, 0.5);
   border: 1px solid #3350e9;
 }
+
 .form-input.area {
   display: block;
   min-height: 84px;
@@ -98,16 +102,12 @@
   .input {
     margin-bottom: 32px;
   }
-  .form-input ::placeholder {
-    color: var(--main);
-  }
   .form-input {
     padding: 16px 18px;
     min-width: 460px;
   }
   .form-input.area {
     min-height: 90px;
-    display: block;
   }
   .button-text {
     min-width: 160px;
