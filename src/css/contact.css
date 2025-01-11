@@ -99,7 +99,7 @@
     margin-bottom: 32px;
   }
   .form-input ::placeholder {
-    color: black;
+    color: var(--main);
   }
   .form-input {
     padding: 16px 18px;
