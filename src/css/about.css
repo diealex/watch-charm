@@ -1,7 +1,3 @@
-.about {
-}
-.container {
-}
 .wrapper-about {
   border-radius: 30px;
   background: #f3f3f3;
@@ -12,7 +8,6 @@
   font-weight: 600;
   font-size: 32px;
   line-height: 1;
-
   margin-bottom: 28px;
 }
 .about-title-descr {
@@ -24,7 +19,6 @@
 .about-descr-text {
   font-size: 14px;
   line-height: 1.28571;
-
   color: rgba(12, 12, 12, 0.7);
 }
 .btn-about {
@@ -35,11 +29,43 @@
   width: 160px;
   height: 48px;
   background-color: #3350e9;
-
   font-size: 14px;
   line-height: 1.28571;
   text-align: center;
   color: #fbfbfb;
 }
-.img-about {
+.btn-about:focus,
+.btn-about:hover {
+  background-color: #1f3cd4;
+}
+
+@media screen and (min-width: 768px) {
+  .wrapper-about {
+    padding: 80px 60px;
+  }
+  .title-about {
+    margin-bottom: 40px;
+    font-size: 48px;
+    line-height: 0.91667;
+  }
+  .about-descr-text {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+  .about-title-descr {
+    margin-bottom: 60px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .container-about {
+    display: flex;
+    gap: 40px;
+  }
+  .wrapper-about {
+    margin-bottom: 0;
+    width: 580px;
+  }
+  .about-title-descr {
+    margin-bottom: 40px;
+  }
 }
