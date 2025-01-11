@@ -42,6 +42,7 @@
 @media screen and (min-width: 768px) {
   .wrapper-about {
     padding: 80px 60px;
+    border-radius: 50px;
   }
   .title-about {
     margin-bottom: 40px;
