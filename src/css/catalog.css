@@ -31,17 +31,14 @@
     min-width: 335px;
 }
 
-.catalog-img {
-   display: block;
+.catalog-list-item-wrapper img {
    margin: 0 auto;
-   max-width: 100%;
-   height: auto;
 }
 
 .catalog-list-item-name {
     font-weight: 500;
     font-size: 16px;
-    line-height: 125%;
+    line-height: 1.25;
     letter-spacing: -0.02em;
     color: #0C0C0C;
 
