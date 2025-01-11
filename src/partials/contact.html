@@ -1,76 +1,82 @@
-<section class="section-wrapper contact">
-    <div class="container">
-      <h3 class="contact-title">Contact Us</h3>
-      <div class="contact-content">
-          <div class="content-section">
-            <p class="contact-text">
-        Please use the form below to contact us. Enter your name, email,<br>
-        phone, and message and we'll get back to you shortly.
-            </p>
-            <form class="form" name="form-contact" autocomplete="off">
-            <div class="inputs">
-                <div class="input">
+<section class="section-wrapper">
+  <div class="container">
+    <h3 class="contact-title">Contact Us</h3>
+    <div class="contact-content">
+      <div class="content-section">
+        <p class="contact-text">
+          Please use the form below to contact us. Enter your name, email,<br
+            class="break-line"
+          />
+          phone, and message and we'll get back to you shortly.
+        </p>
+        <form class="form" name="form-contact" autocomplete="off">
+          <div class="inputs">
+            <div class="input">
+              <input
+                class="form-input"
+                type="text"
+                name="user-name"
+                id="user-name"
+                placeholder="Name"
+                autofocus
+                required
+              />
 
-                      <input
-                        class="form-input"
-                        type="text"
-                        name="user-name"
-                        id="user-name"
-                        placeholder="Name"
-                        autofocus
-                        required
-                      />
+              <input
+                class="form-input"
+                type="text"
+                name="user-email"
+                id="user-email"
+                placeholder="Email"
+                pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+                required
+              />
 
+              <input
+                class="form-input"
+                type="text"
+                name="user-mob"
+                id="user-mob"
+                placeholder="+380"
+                inputmode="numeric"
+                pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$"
+                title="Phone number should be 10 digits"
+                required
+              />
 
-                      <input
-                        class="form-input"
-                        type="text"
-                        name="user-name"
-                        id="user-name"
-                        placeholder="Email"
-                        autofocus
-                        required
-                      />
-
-                      <input
-                        class="form-input"
-                        type="text"
-                        name="user-name"
-                        id="user-name"
-                        placeholder="+380"
-                        autofocus
-                        pattern="[0-9]{10}" 
-                        title="Phone number should be 10 digits"
-                        required
-                      />
-
-
-                    <div class="input-div">
-                      <textarea
-                        class="form-input area"
-                        type="text"
-                        name="user-name"
-                        id="user-name"
-                        placeholder="Comment"
-                        autofocus
-                        maxlength="500" 
-                        required
-                      ></textarea>
-                    </div>
- </div>
-  </div>
-            <button type="button" class="button-text">Send
-
-            </form>
+              <div class="input-div">
+                <textarea
+                  class="form-input area"
+                  name="user-comment"
+                  id="user-comment"
+                  placeholder="Comment"
+                  maxlength="500"
+                  required
+                ></textarea>
+              </div>
+            </div>
           </div>
-              <img
-              class="img-watch"
-          src="../img/contact-section/desktop.jpg"
+          <button type="submit" class="button-text">Send</button>
+        </form>
+      </div>
+      <picture>
+        <source
+          media="(max-width: 768px)"
+          srcset="/img/contact-section/tablet.jpg"
+        />
+        <source
+          media="(min-width: 1280px)"
+          srcset="/img/contact-section/desktop.jpg"
+        />
+        <img
+          class="img-watch"
+          src="/img/contact-section/mobile.jpg"
           alt="watch"
           width="530"
           height="556"
           style="display: block"
-              />
+        />
+      </picture>
     </div>
-    </div>
-  </section>
+  </div>
+</section>
