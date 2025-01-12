@@ -65,23 +65,6 @@
   color: var(--background);
 }
 
-.menu-active-link {
-  position: relative;
-}
-
-.menu-active-link::after {
-  content: '';
-  background-color: var(--accent);
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  display: block;
-  position: absolute;
-  right: 50%;
-  transform: translateX(50%);
-  margin-top: 2px;
-}
-
 .menu-social-links-list {
   display: flex;
   align-self: center;
