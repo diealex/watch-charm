@@ -27,7 +27,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  stroke: var(--background);
   @media screen and (min-width: 768px) {
     width: 40px;
     height: 40px;
@@ -38,6 +37,7 @@
   display: block;
   width: 17px;
   height: 17px;
+  stroke: var(--background);
   @media screen and (min-width: 768px) {
     width: 20px;
     height: 20px;
