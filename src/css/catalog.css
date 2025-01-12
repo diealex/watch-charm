@@ -1,8 +1,5 @@
 
  /* C A T A L O G    M O B I L E */
- .catalog .container {
-    padding: 0;
-}
 
 .catalog-name {
     font-weight: 600;
@@ -112,14 +109,14 @@ color: rgba(12, 12, 12, 0.5);
   
 /* C A T A L O G    D E S K T O P */
 
-  @media only screen and (min-width: 1200px) {
+  @media only screen and (min-width: 1280px) {
     .catalog-list-item {
-        width: calc((100% - 46px) / 3 );
+        width: calc((100% - 46px) / 3);
         gap: 32px;
     }
 
     .catalog-list {
-        column-gap: 23px;
+        
     }
   }
   
