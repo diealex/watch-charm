@@ -18,36 +18,40 @@
 }
 .about-descr-text {
   font-size: 14px;
-  line-height: 1.28571;
+  line-height: 1.28;
   color: rgba(12, 12, 12, 0.7);
 }
 .btn-about {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: block;
   border-radius: 16px;
-  width: 160px;
-  height: 48px;
+  max-width: 160px;
+
   background-color: #3350e9;
   font-size: 14px;
-  line-height: 1.28571;
+  line-height: 1.28;
   text-align: center;
   color: #fbfbfb;
+  padding: 15px 38px;
 }
 .btn-about:focus,
 .btn-about:hover {
   background-color: #1f3cd4;
+}
+.img-about {
+  width: 335px;
+  height: 446px;
 }
 
 @media screen and (min-width: 768px) {
   .wrapper-about {
     padding: 80px 60px;
     border-radius: 50px;
+    margin-bottom: 40px;
   }
   .title-about {
     margin-bottom: 40px;
     font-size: 48px;
-    line-height: 0.91667;
+    line-height: 0.92;
   }
   .about-descr-text {
     font-size: 16px;
@@ -55,6 +59,10 @@
   }
   .about-title-descr {
     margin-bottom: 60px;
+  }
+  .img-about {
+    width: 704px;
+    height: 512px;
   }
 }
 @media screen and (min-width: 1280px) {
@@ -68,5 +76,9 @@
   }
   .about-title-descr {
     margin-bottom: 40px;
+  }
+  .img-about {
+    width: 530px;
+    height: 532px;
   }
 }
