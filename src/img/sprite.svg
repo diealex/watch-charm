@@ -21,8 +21,10 @@
         <svg id="menu" viewBox="0 0 34 16" fill="none">
             <path d="M2 2.16669H32M2 13.8334H32" stroke="#0C0C0C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
         </svg>
-        <svg id="close" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M1.5 1.5L18.5 18.5" stroke="#FBFBFB" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+        <!-- menu close -->
+        <svg id="menu-close" width="20" height="20" viewBox="0 0 20 20" fill="none">
+            <path d="M1.5 1.5L18.5 18.5" stroke="#fbfbfb" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M18.5 1.5L1.5 18.5" stroke="#FBFBFB" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
         </svg>
     </defs>
 </svg>
