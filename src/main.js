@@ -6,8 +6,8 @@ window.hideDiv = function () {
 };
 window.setActiveLink = function(event) {
   var current = document.getElementsByClassName("active-link");
-  if (current.length > 0) { 
-    current[0].className = current[0].className.replace(" active-link", "");
+  if (current.length) { 
+    current[0].classList.remove("active-link");
   }
-  event.currentTarget.className += " active-link";
+  event.currentTarget.classList.add("active-link");
 }
