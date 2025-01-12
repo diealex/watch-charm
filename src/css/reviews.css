@@ -30,8 +30,7 @@
     gap: 24px;
     border-radius: 30px;
     padding: 32px 36px;
-    width: 335px;
-    height: 262px;
+    max-width: 335px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -46,8 +45,7 @@
     }
 
     .reviews-item {
-        width: 344px;
-        height: 272px;
+        max-width: calc((100% - 16px) / 2);
     }
 }
 
@@ -62,8 +60,7 @@
     }
 
     .reviews-item {
-        width: 370px;
-        height: 272px;
+        max-width: calc((100% - 40px) / 3);
     }
 }
 
