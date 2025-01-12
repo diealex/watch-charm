@@ -9,7 +9,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
     />
-    <link rel="stylesheet" crossorigin href="/project_team_happy-galley/assets/index-oLMGXJch.css">
+    <link rel="stylesheet" crossorigin href="/project_team_happy-galley/assets/index-BYJk98ZQ.css">
   </head>
   <body>
     <header class="section-wrapper header">
@@ -213,7 +213,92 @@
 
       <section class="section-wrapper reviews"></section>
 
-      <section class="section-wrapper contact"></section>
+      <section class="section-wrapper">
+  <div class="container">
+    <h2 class="contact-title">Contact Us</h2>
+    <div class="contact-content">
+      <div class="content-section">
+        <p class="contact-text">
+          Please use the form below to contact us. Enter your name, email,
+          phone, and message and we'll get back to you shortly.
+        </p>
+        <form class="form" name="form-contact" autocomplete="on">
+            <div class="input">
+              <input
+                class="form-input"
+                type="text"
+                name="user-name"
+                id="user-name"
+                placeholder="Name"
+                autofocus
+                required
+              />
+
+              <input
+                class="form-input"
+                type="text"
+                name="user-email"
+                id="user-email"
+                placeholder="Email"
+                pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+                required
+              />
+
+              <input
+                class="form-input"
+                type="text"
+                name="user-mob"
+                id="user-mob"
+                placeholder="+380"
+                inputmode="numeric"
+                pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$"
+                title="Phone number should be 10 digits"
+                required
+              />
+
+              <textarea
+                class="form-input area"
+                name="user-comment"
+                id="user-comment"
+                placeholder="Comment"
+                maxlength="500"
+                required
+              ></textarea>
+            </div>
+          <button type="submit" class="button-text">Send</button>
+        </form>
+      </div>
+
+      <picture>
+  <!-- Desktop -->
+  <source 
+    media="(min-width: 1280px)" 
+    srcset="/project_team_happy-galley/assets/desktop-DzqhfNWn.jpg 1x, /project_team_happy-galley/assets/desktop-DzqhfNWn.jpg 2x" 
+  />
+
+  <!-- Tablet -->
+  <source 
+    media="(min-width: 768px)" 
+    srcset="/project_team_happy-galley/assets/tablet-Cyve3zXk.jpg 1x, /project_team_happy-galley/assets/tablet-Cyve3zXk.jpg 2x" 
+  />
+
+  <!-- Mobile -->
+  <source 
+    media="(max-width: 767px)" 
+    srcset="/project_team_happy-galley/assets/mobile-DQ2sKBBJ.jpg 1x, /project_team_happy-galley/assets/mobile-DQ2sKBBJ.jpg 2x" 
+  />
+
+  <!-- Fallback -->
+  <img 
+    class="img-watch" 
+    src="/project_team_happy-galley/assets/mobile-DQ2sKBBJ.jpg" 
+    alt="watch" 
+    width="530" 
+    height="556" 
+  />
+</picture>
+    </div>
+</section>
 
     </main>
 
