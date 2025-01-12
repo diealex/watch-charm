@@ -13,7 +13,7 @@
 
 /* Sections style */
 @import url('./header.css');
-@import url('./mobile-menu.css') screen and (max-width: 1279.98px);
+@import url('./mobile-menu.css');
 @import url('./hero.css');
 @import url('./about.css');
 @import url('./catalog.css');
