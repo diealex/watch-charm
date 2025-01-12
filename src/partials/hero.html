@@ -1,4 +1,6 @@
 <section class="section-wrapper hero">
+    <div class="container hero-container">
+
     <div class="hero-page">
         <h1 class="hero-title">Welcome to our <span class="hero-title-span">collection</span> of premium watches</h1>
         <p class="hero-text">Our watches are not just timepieces, but also an expression of your
@@ -8,13 +10,35 @@
     
     <div class="hero-box"> 
         <ul class="hero-list-menu">
-            <li class="hero-item-image"><img src="/images/ellipse-21.png" alt="ellipse-21"></li>
-            <li class="hero-item-image"><img src="/images/ellipse-22.png" alt="ellipse-22"></li>
-            <li class="hero-item-image"><img src="/images/ellipse-23.png" alt="ellipse-23"></li>
+            <li class="hero-item-image">
+            <picture>
+                    <source media="(min-width: 1158px)" srcset="/img/images-hero/ellipse21-desktop1x.png 1x, /img/images-hero/ellipse21-desktop2x.png 2x"/>
+                    <source media="(min-width: 768px)" srcset="/img/images-hero/ellipse21-tablet1x.png 1x, /img/images-hero/ellipse21-tablet2x.png 2x"/>
+                    <source media="(max-width: 767px)" srcset="img/images-hero/ellipse21-mobile1x.png 1x, /img/images-hero/ellipse21-mobile2x.png 2x"/>
+                    <img src="/img/images-hero/ellipse21-desktop1x.png" alt="ellipse-21" width="60" height="60">
+            </picture>
+            </li>
+            <li class="hero-item-image">
+                <picture>
+                <source media="(min-width: 1158px)" srcset="/img/images-hero/ellipse22-desktop1x.png 1x, /img/images-hero/ellipse22-desktop2x.png 2x"/>
+                <source media="(min-width: 768px)" srcset="/img/images-hero/ellipse22-tablet1x.png 1x, /img/images-hero/ellipse22-tablet2x.png 2x"/>
+                <source media="(max-width: 767px)" srcset="img/images-hero/ellipse22-mobile1x.png 1x, /img/images-hero/ellipse22-mobile2x.png 2x"/>
+                <img src="/img/images-hero/ellipse22-desktop1x.png" alt="ellipse-22" width="60" height="60">
+            </picture>
+            </li>
+            <li class="hero-item-image">
+                <picture>
+                <source media="(min-width: 1158px)" srcset="/img/images-hero/ellipse23-desktop1x.png 1x, /img/images-hero/ellipse23-desktop2x.png 2x"/>
+                <source media="(min-width: 768px)" srcset="/img/images-hero/ellipse23-tablet1x.png 1x, /img/images-hero/ellipse23-tablet2x.png 2x"/>
+                <source media="(max-width: 767px)" srcset="img/images-hero/ellipse23-mobile1x.png 1x, /img/images-hero/ellipse23-mobile2x.png 2x"/>
+                <img src="/img/images-hero/ellipse23-desktop1x.png" alt="ellipse-23" width="60" height="60">
+            </picture>
+            </li>
+            <!-- <button type="button" class="button-sd">Scroll down</button> -->
         </ul>
-        <a href="./footer">Scroll down</a>
-        </div>
-       
-       <div class="hero-image"></div>
-    </section>
+        <a class="hero-scrol" href="#./footer">Scroll down</a>
+    </div>
+</div>
+    <div class="hero-image"></div>
+    
 </section>
