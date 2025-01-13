@@ -9,6 +9,7 @@ window.hideDiv = function () {
 };
 window.setActiveLink = function(event) {
   var current = document.getElementsByClassName("active-link");
+  current[0].classList.remove("active-link");
   if (current.length) { 
     current[0].classList.remove("active-link");
   }
