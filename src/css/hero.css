@@ -1,77 +1,64 @@
 .hero-container {
   display: flex;
   flex-direction: column;
+  row-gap: 28px;
+  transition: all 500ms ease-out;
 }
 
 .hero-title {
   font-weight: 600;
   font-size: 40px;
-  line-height: 95%;
+  line-height: 0.95;
   letter-spacing: -0.02em;
-  padding-bottom: 20px;
-  text-align: left;
+  margin-bottom: 20px;
   flex-wrap: wrap;
 }
 
 .hero-title-span {
-  color: #3350e9;
+  color: var(--accent);
 }
 
 .hero-text {
   font-weight: 500;
   font-size: 14px;
-  line-height: 129%;
+  line-height: 1.29;
   letter-spacing: -0.02em;
   color: rgba(12, 12, 12, 0.7);
 }
 
 .hero-box {
   display: flex;
-  flex-direction: column;
-}
-
-.hero-box {
-  display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: baseline;
-  padding: 28px 0;
+  align-items: flex-end;
 }
 
 .hero-list-menu {
   display: flex;
 }
 
-.hero-item-image {
-  margin-right: -10px;
+.hero-item-image:not(:first-child) {
+  margin-left: -12px;
 }
 
 .hero-scrol {
-  font-family: inherit;
-  font-weight: 500;
   font-size: 14px;
-  line-height: 129%;
+  line-height: 1.29;
   letter-spacing: -0.02em;
   text-decoration: underline;
   text-decoration-skip-ink: none;
-  display: flex;
-  bottom: 0;
-  justify-content: flex-end;
-  background-color: #fbfbfb;
-
+  background-color: var(--background);
   transition: color 500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-scrol:hover,
 .hero-scrol:focus {
   background-color: fff;
-  color: #3350e9;
+  color: var(--accent);
 }
 
 .hero-image {
-  display: flex;
-  justify-content: center;
-  border-radius: 50px;
+  border-radius: 30px;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -79,27 +66,28 @@
 @media screen and (min-width: 768px) {
   .hero-container {
     flex-direction: row;
-    margin-bottom: 40px;
+    flex-wrap: wrap;
     justify-content: space-between;
+    row-gap: 40px;
   }
 
   .hero-title {
     font-size: 70px;
-    line-height: 86%;
+    line-height: 0.86;
+    max-width: 557px;
   }
 
-  .hero-box {
-    position: relative;
-    flex-direction: column;
-    min-width: 136px;
-    gap: 11px;
-    align-items: baseline;
-    padding: unset;
-  }
   .hero-text {
     max-width: 480px;
     font-size: 16px;
-    line-height: 125%;
+    line-height: 1.25;
+  }
+  .hero-box {
+    flex-direction: column;
+    margin: 0;
+  }
+  .hero-item-image:not(:first-child) {
+    margin-left: -15px;
   }
   .hero-scrol {
     align-self: flex-end;
@@ -125,5 +113,8 @@
   }
   .hero-text {
     max-width: 480px;
+  }
+  .hero-item-image:not(:first-child) {
+    margin-left: -16px;
   }
 }
