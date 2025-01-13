@@ -1,0 +1,122 @@
+
+ /* C A T A L O G    M O B I L E */
+
+.catalog-name {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    margin-bottom: 24px;
+    color: #0C0C0C;
+
+}
+.catalog-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.catalog-list-item {
+    background-color: #F3F3F3;
+    border: 1px solid rgba(12, 12, 12, 0.05);
+    border-radius: 30px;
+    padding: 24px 28px;
+    width: 100%;
+}
+
+.catalog-list-item-wrapper img {
+   margin: 0 auto;
+}
+
+.catalog-list-item-name {
+    font-size: 16px;
+    line-height: 1;
+    margin-bottom: 8px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.catalog-list-item-price {
+font-weight: 400;
+font-size: 14px;
+line-height: 1.29;
+letter-spacing: -0.02em;
+color: rgba(12, 12, 12, 0.5);
+}
+
+
+
+.catalog-list-item.hidden {
+    display: none;
+}
+
+.catalog-unwrap-button {
+    display: block;
+    margin: 40px auto;
+    margin-bottom: 0;
+
+    border-radius: 16px;
+    width: 160px;
+    height: 48px;
+
+    background-color: #3350E9;
+    color: #FBFBFB;
+}
+
+/* C A T A L O G    T A B L E T */
+
+@media only screen and (min-width: 768px) {
+
+    .catalog-name {
+        font-size: 48px;
+        line-height: 0.92;
+        margin-bottom: 40px;
+    }
+    
+
+    .catalog-list-item.hidden {
+        display:inline;
+    }
+
+    .catalog-list {
+        flex-direction: row;
+        flex-wrap: wrap;
+        column-gap: 16px;
+        row-gap: 32px;
+    }
+
+    .catalog-list-item-name {
+        font-size: 20px;
+        line-height: 1;
+        margin-bottom: 8px;
+       
+    }
+
+    .catalog-unwrap-button.hidden {
+        display: none;
+    }
+
+    .catalog-list-item {
+        width: calc((100% - 16px) / 2 );
+        white-space: nowrap;
+        overflow: hidden;
+    }
+  
+  }
+  
+/* C A T A L O G    D E S K T O P */
+
+  @media only screen and (min-width: 1280px) {
+    .catalog-list-item {
+        width: calc((100% - 46px) / 3);
+        gap: 32px;
+    }
+
+    .catalog-list {
+        
+    }
+  }
+  
