@@ -14,7 +14,7 @@
       rgba(12, 12, 12, 0.92),
       rgba(12, 12, 12, 0.92)
     ),
-    url('/img/mobile-menu/mobile.jpg');
+    url('/img/mobile-menu/mobile.webp');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -29,7 +29,7 @@
         rgba(12, 12, 12, 0.92),
         rgba(12, 12, 12, 0.92)
       ),
-      url('/img/mobile-menu/mobile2x.jpg');
+      url('/img/mobile-menu/mobile2x.webp');
   }
 
   @media screen and (min-width: 768px) {
@@ -40,7 +40,7 @@
         rgba(12, 12, 12, 0.92),
         rgba(12, 12, 12, 0.92)
       ),
-      url('/img/mobile-menu/tablet.jpg');
+      url('/img/mobile-menu/tablet.webp');
 
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
@@ -50,7 +50,7 @@
           rgba(12, 12, 12, 0.92),
           rgba(12, 12, 12, 0.92)
         ),
-        url('/img/mobile-menu/tablet2x.jpg');
+        url('/img/mobile-menu/tablet2x.webp');
     }
   }
 
