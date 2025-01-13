@@ -26,5 +26,9 @@
             <path d="M1.5 1.5L18.5 18.5" stroke="#fbfbfb" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
             <path d="M18.5 1.5L1.5 18.5" stroke="#FBFBFB" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
         </svg>
+        <symbol id="icon-menu-close" viewBox="0 0 32 32">
+            <path d="M8 25.129c-0.282 0-0.565-0.094-0.847-0.376-0.471-0.471-0.471-1.224 0-1.694l16-16c0.471-0.471 1.224-0.471 1.694 0s0.471 1.224 0 1.694l-16 16c-0.282 0.282-0.565 0.376-0.847 0.376z"></path>
+            <path d="M24 25.129c-0.282 0-0.565-0.094-0.847-0.376l-16-16c-0.471-0.471-0.471-1.224 0-1.694s1.224-0.471 1.694 0l16 16c0.471 0.471 0.471 1.224 0 1.694-0.282 0.282-0.565 0.376-0.847 0.376z"></path>
+        </symbol>
     </defs>
 </svg>
