@@ -1,0 +1,129 @@
+.hero-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-title {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 95%;
+  letter-spacing: -0.02em;
+  padding-bottom: 20px;
+  text-align: left;
+  flex-wrap: wrap;
+}
+
+.hero-title-span {
+  color: #3350e9;
+}
+
+.hero-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 129%;
+  letter-spacing: -0.02em;
+  color: rgba(12, 12, 12, 0.7);
+}
+
+.hero-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 28px 0;
+}
+
+.hero-list-menu {
+  display: flex;
+}
+
+.hero-item-image {
+  margin-right: -10px;
+}
+
+.hero-scrol {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 129%;
+  letter-spacing: -0.02em;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  display: flex;
+  bottom: 0;
+  justify-content: flex-end;
+  background-color: #fbfbfb;
+
+  transition: color 500ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hero-scrol:hover,
+.hero-scrol:focus {
+  background-color: fff;
+  color: #3350e9;
+}
+
+.hero-image {
+  display: flex;
+  justify-content: center;
+  border-radius: 50px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-container {
+    flex-direction: row;
+    margin-bottom: 40px;
+    justify-content: space-between;
+  }
+
+  .hero-title {
+    font-size: 70px;
+    line-height: 86%;
+  }
+
+  .hero-box {
+    position: relative;
+    flex-direction: column;
+    min-width: 136px;
+    gap: 11px;
+    align-items: baseline;
+    padding: unset;
+  }
+  .hero-text {
+    max-width: 480px;
+    font-size: 16px;
+    line-height: 125%;
+  }
+  .hero-scrol {
+    align-self: flex-end;
+    font-size: 20px;
+    line-height: 100%;
+  }
+
+  .hero-list-menu {
+    align-self: flex-end;
+  }
+  .hero-image {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .hero-title {
+    max-width: 597px;
+    font-size: 72px;
+    line-height: 87%;
+    letter-spacing: -0.02em;
+  }
+  .hero-text {
+    max-width: 480px;
+  }
+}
