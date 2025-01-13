@@ -1,1 +1,54 @@
-<!-- Will be soon -->
+<div class="mobile-menu-container" id="mobile-menu">
+    <button type="button" class="menu-close-btn" onclick="hideDiv()">
+        <svg class="menu-close-icon" width="20" height="20" viewBox="0 0 20 20">
+            <use href="img/sprite.svg#menu-close"></use>
+        </svg>
+    </button>
+
+    <nav class="menu-nav-flex">
+        <ul class="menu-nav-link-flex">
+            <li>
+                <a href="#" class="menu-nav-link" onclick="setActiveLink(event)">Home</a>
+            </li>
+            <li>
+                <a href="#about" class="menu-nav-link" onclick="setActiveLink(event)">About Us</a>
+            </li>
+            <li>
+                <a href="#catalog" class="menu-nav-link" onclick="setActiveLink(event)">Catalog</a>
+            </li>
+            <li>
+                <a href="#sale" class="menu-nav-link" onclick="setActiveLink(event)">Sale</a>
+            </li>
+            <li>
+                <a href="#reviews" class="menu-nav-link" onclick="setActiveLink(event)">Reviews</a>
+            </li>
+            <li>
+                <a href="#contact" class="menu-nav-link" onclick="setActiveLink(event)">Contact Us</a>
+            </li>
+        </ul>
+    </nav>
+
+    <ul class="menu-social-links-list">
+        <li class="menu-social-links-item">
+            <a class="link" href="https://www.facebook.com/goITclub/" target="_blank">
+                <svg class="menu-social-icon" width="20" height="20">
+                    <use href="img/sprite.svg#fb"></use>
+                </svg>
+            </a>
+        </li>
+        <li class="menu-social-links-item">
+            <a class="link" href="https://www.instagram.com/goitclub/" target="_blank">
+                <svg class="menu-social-icon" width="20" height="20">
+                    <use href="img/sprite.svg#ig"></use>
+                </svg>
+            </a>
+        </li>
+        <li class="menu-social-links-item">
+            <a class="link" href="https://www.youtube.com/c/GoIT" target="_blank">
+                <svg class="menu-social-icon" width="20" height="20">
+                    <use href="img/sprite.svg#yt"></use>
+                </svg>
+            </a>
+        </li>
+    </ul>
+</div>
