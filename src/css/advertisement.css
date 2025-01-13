@@ -2,7 +2,7 @@
 .announce {
   padding: 60px 28px;
   background-color: var(--main);
-  background-image: url('/img/adv-background-mobile.webp');
+  background-image: url('/img/announce/adv-background-mobile.webp');
   border-radius: 30px;
   margin: 30px auto;
   background-repeat: no-repeat;
@@ -64,7 +64,7 @@
 
 @media screen and (min-resolution: 192dpi) {
   .main-page {
-    background-image: url('/img/adv-background-mobile@2x.webp');
+    background-image: url('/img/announce/adv-background-mobile@2x.webp');
   }
 }
 
@@ -72,7 +72,7 @@
 
 @media screen and (min-width: 768px) {
   .announce {
-    background-image: url('/img/adv-background-tablet.webp');
+    background-image: url('/img/announce/adv-background-tablet.webp');
     padding: 80px 64px;
     max-width: 704px;
     margin: 40px auto;
@@ -88,7 +88,7 @@
 }
 @media screen and (min-width: 768px) and (min-resolution: 192dpi) {
   .announce {
-    background-image: url('/img/adv-background-tablet@2x.webp');
+    background-image: url('/img/announce/adv-background-tablet@2x.webp');
   }
 }
 
@@ -96,7 +96,7 @@
 
 @media screen and (min-width: 1280px) {
   .announce {
-    background-image: url('/img/adv-background-desktop.webp');
+    background-image: url('/img/announce/adv-background-desktop.webp');
     padding: 83px 80px;
     max-width: 1150px;
     margin: 50px auto;
@@ -111,6 +111,6 @@
 }
 @media screen and (min-width: 1280px) and (min-resolution: 192dpi) {
   .announce {
-    background-image: url('/img/adv-background-desktop@2x.webp');
+    background-image: url('/img/announce/adv-background-desktop@2x.webp');
   }
 }
