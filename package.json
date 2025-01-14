@@ -1,12 +1,12 @@
 
 {
-  "name": "project_team_happy-galley",
+  "name": "watch-charm",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/project_team_happy-galley/",
+    "build": "vite build --base=/watch-charm/",
     "preview": "vite preview"
   },
   "devDependencies": {
