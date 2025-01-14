@@ -8,88 +8,79 @@
           phone, and message and we'll get back to you shortly.
         </p>
         <form class="form" name="form-contact" autocomplete="on">
-            <div class="input">
-              <input
-                class="form-input"
-                type="text"
-                name="user-name"
-                id="user-name"
-                placeholder="Name"
-                aria-label="Enter your name"
-                required
-              />
-
-              <input
-                class="form-input"
-                type="email"
-                name="user-email"
-                id="user-email"
-                placeholder="Email"
-                pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
-                aria-label="Enter your email"
-                required
-              />
-
-              <input
-                class="form-input"
-                type="tel"
-                name="user-mob"
-                id="user-mob"
-                placeholder="+380"
-                inputmode="numeric"
-                pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$"
-                title="Phone number should be 10 digits"
-                aria-label="Enter your tel"
-                required
-              />
-
-              <textarea
-                class="form-input area"
-                name="user-comment"
-                id="user-comment"
-                placeholder="Comment"
-                maxlength="500"></textarea>
-            </div>
+          <div class="input">
+            <input
+              class="form-input"
+              type="text"
+              name="user-name"
+              id="user-name"
+              placeholder="Name"
+              aria-label="Enter your name"
+              required
+            />
+            <input
+              class="form-input"
+              type="email"
+              name="user-email"
+              id="user-email"
+              placeholder="Email"
+              pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+              aria-label="Enter your email"
+              required
+            />
+            <input
+              class="form-input"
+              type="tel"
+              name="user-mob"
+              id="user-mob"
+              placeholder="+380"
+              inputmode="numeric"
+              pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$"
+              title="Phone number should be 10 digits"
+              aria-label="Enter your tel"
+              required
+            />
+            <textarea
+              class="form-input area"
+              name="user-comment"
+              id="user-comment"
+              placeholder="Comment"
+              maxlength="500"
+            ></textarea>
+          </div>
           <button type="submit" class="button-text">Send</button>
         </form>
       </div>
-
       <picture>
-  <!-- Desktop -->
-  <source 
-    media="(min-width: 1280px)" 
-    srcset="
-      /img/contact-section/desktop.webp 1x, 
-      /img/contact-section/desktop@2x.webp 2x
-    " 
-  />
-
-  <!-- Tablet -->
-  <source 
-    media="(min-width: 768px)" 
-    srcset="
-      /img/contact-section/tablet.webp 1x, 
-      /img/contact-section/tablet@2x.webp 2x
-    " 
-  />
-
-  <!-- Mobile -->
-  <source 
-    media="(max-width: 767px)" 
-    srcset="
-      /img/contact-section/mobile.webp 1x, 
-      /img/contact-section/mobile@2x.webp 2x
-    " 
-  />
-
-  <!-- Fallback -->
-  <img 
-    class="img-watch" 
-    src="/img/contact-section/mobile.webp" 
-    alt="watch" 
-    width="530" 
-    height="556" 
-  />
-</picture>
+        <source
+          media="(min-width: 1280px)"
+          srcset="
+            /img/contact-section/desktop.webp    1x,
+            /img/contact-section/desktop@2x.webp 2x
+          "
+        />
+        <source
+          media="(min-width: 768px)"
+          srcset="
+            /img/contact-section/tablet.webp    1x,
+            /img/contact-section/tablet@2x.webp 2x
+          "
+        />
+        <source
+          media="(max-width: 767px)"
+          srcset="
+            /img/contact-section/mobile.webp    1x,
+            /img/contact-section/mobile@2x.webp 2x
+          "
+        />
+        <img
+          class="img-watch"
+          src="/img/contact-section/mobile.webp"
+          alt="watch image"
+          width="530"
+          height="556"
+        />
+      </picture>
     </div>
+  </div>
 </section>
