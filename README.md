@@ -38,34 +38,16 @@ This project utilizes modern web technologies and frameworks:
   - HTML5
   - CSS3 (with Flexbox & Grid)
   - JavaScript (ES6+)
-  - React.js (for dynamic components)
-
-- **Backend**:
-
-  - Node.js
-  - Express.js
-  - MongoDB (for database management)
 
 - **Version Control**:
 
   - Git & GitHub
 
-- **Others**:
-  - SASS/SCSS for enhanced CSS
-  - RESTful APIs
-  - Axios for API requests
-
 ## Features
 
 - **Product Pages**: Detailed information about each watch, including images,
   specifications, and pricing.
-- **Cart & Checkout**: Add watches to the cart, view the cart summary, and
-  proceed to checkout.
-- **User Authentication**: Sign up, log in, and manage user profiles.
 - **Responsive Design**: Optimized for mobile, tablet, and desktop views.
-- **Search & Filtering**: Search watches by brand, price, and type, with
-  advanced filtering options.
-- **Order History**: Users can view their past orders and track current orders.
 
 ## Installation
 
@@ -73,11 +55,11 @@ To set up the project locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/MarvinNox/WatchCharm-team_project-happy_galley.git
+   git clone https://github.com/MarvinNox/project_team_happy-galley
    ```
 2. Navigate to the project directory:
    ```bash
-   cd WatchCharm-team_project-happy_galley
+   cd project_team_happy-galley
    ```
 3. Install dependencies:
    ```bash
