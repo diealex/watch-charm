@@ -97,6 +97,7 @@
   line-height: 1.33;
   max-width: 87px;
   font-size: 12px;
+  font-style: normal;
 }
 
 .footer-text {
@@ -191,7 +192,6 @@
     line-height: 1.28;
     max-width: 162px;
     font-size: 14px;
-    font-style: normal;
   }
 
   .menu-wrap {
