@@ -15,28 +15,31 @@
                 name="user-name"
                 id="user-name"
                 placeholder="Name"
+                aria-label="Enter your name"
                 required
               />
 
               <input
                 class="form-input"
-                type="text"
+                type="email"
                 name="user-email"
                 id="user-email"
                 placeholder="Email"
                 pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+                aria-label="Enter your email"
                 required
               />
 
               <input
                 class="form-input"
-                type="text"
+                type="tel"
                 name="user-mob"
                 id="user-mob"
                 placeholder="+380"
                 inputmode="numeric"
                 pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$"
                 title="Phone number should be 10 digits"
+                aria-label="Enter your tel"
                 required
               />
 
